@@ -10,23 +10,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="https://use.fontawesome.com/620edb272c.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="moving.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6358f34dbd.js" crossorigin="anonymous"></script>
 
 
 </head>
 
-<body class="theme-dark container">
+<body class="theme-dark">
 
     <!-- The first page of the portfolio. Simple welcome page with a button to direct you the the about page -->
-    <div>
-        <h1>
-            Hello. My name is David Ghazi.
-            <p>
-                I'm a full- stack web developer.
-            </p>
+    <div class="animation-area">
+        <h1 class="home">
+            Hello, I'm David Ghazi
         </h1>
-        <a type="button" class="btn btn-secondary btn-lg btn-outline-primary" href="#about">View My Work</a>
+        
+        <h1 class="home title">
+            Full- stack Web Developer
+        </h1>
+
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <a type="button" class="btn btn-secondary btn-lg btn-outline-primary view home" href="#about">View My Work</a>
     </div>
 
     <!-- Navbar. Easily navigate around the website -->
@@ -169,7 +181,7 @@
                 <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1"
                     rows="3"></textarea>
                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
-            </div> 
+            </div>
 
         </form>
 
@@ -181,8 +193,10 @@
         <i class="fab fa-github-square social fa-3x"></i>
         <i class="fab fa-instagram-square social fa-3x"></i>
         <i class="fab fa-twitter-square social fa-3x"></i>
-        
+
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

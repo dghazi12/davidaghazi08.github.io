@@ -66,3 +66,21 @@ nav {
 .test{
     margin-top: -20px;
 }
+
+.home{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+
+    font-family: 'Cinzel', serif;
+
+}
+
+.title{
+    margin-top: 50px;
+}
+
+.view{
+    margin-top: 100px;
+}
