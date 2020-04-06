@@ -17,6 +17,14 @@
     background-size: cover;
   } */
 
+  .navbar-dark.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 5px solid #ffffff;
+}
 
 nav {
     padding: 10px;
