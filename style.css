@@ -30,3 +30,39 @@ nav {
 .fab{
     margin-left: 10px;
 }
+
+.fa-js{
+    color: yellow;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-node-js{
+    color: green;
+}
+
+.fa-react{
+    color: lightskyblue;
+}
+
+.fa-java{
+    color: orange;
+}
+
+.fa-bootstrap{
+    color: purple;
+}
+
+.fa-github{
+    color: black;
+}
+
+.test{
+    margin-top: -20px;
+}
