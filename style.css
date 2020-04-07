@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     z-index: 1;
-    width: 100%;
+    width: 110%;
     border-bottom: 5px solid #ffffff;
 }
 
@@ -136,4 +136,13 @@ nav {
 .fab, .fas{
     margin-top: 10px;
     margin-left: 20px;
+}
+
+.project-picture {
+    margin-top: 20px;
+    /* border-style: groove; */
+}
+
+.project-text{
+    margin-top: 50px;
 }
