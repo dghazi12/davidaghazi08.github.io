@@ -1,23 +1,4 @@
-/* body { 
-    background: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-
-
-/* 
-.secondimage { 
-    background: url(https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-  .navbar-dark.fixed {
+.navbar-dark.fixed {
     position: fixed;
     top: 0;
     left: 0;
@@ -80,9 +61,7 @@ nav {
     top: 40%;
     left: 35%;
     color: white;
-
     font-family: 'Cinzel', serif;
-
 }
 
 .title{
@@ -91,4 +70,87 @@ nav {
 
 .view{
     margin-top: 100px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.card{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.picture{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.picture-text{
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+.hexagon{
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%) rotate(120deg);
+    width: 400px;
+    height: 275px;
+    background: transparent;
+    /* border-radius: 50%; */
+    overflow: hidden;
+}
+
+.hexagon-inner {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    transform: rotate(-60deg);
+    overflow: hidden;
+    background: transparent ;
+}
+
+.hexagon-inner-in {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    transform: rotate(-60deg);
+    overflow: hidden;
+    background: url(images/passionate-picture.jpeg);
+    background-size: contain;
+}
+
+.hexagon{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(120deg);
+    width: 400px;
+    height: 275px;
+    /* background: transparent; */
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+}
+
+.hexagon-inner {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    transform: rotate(-60deg);
+    /* overflow: hidden; */
+    /* background: transparent ; */
+}
+
+.hexagon-inner-in {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 50%; */
+    transform: rotate(-60deg);
+    /* overflow: hidden; */
+    background: url(images/self-motivated-picture.jpeg);
+    background-size: contain;
 }
