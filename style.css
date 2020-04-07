@@ -7,6 +7,15 @@
     border-bottom: 5px solid #ffffff;
 }
 
+.card{
+    margin-top: 20px;
+    left: 12%;
+}
+
+.card2{
+    margin-top: 20px;
+}
+
 nav {
     padding: 10px;
 }
@@ -52,10 +61,6 @@ nav {
     color: black;
 }
 
-.test{
-    margin-top: -20px;
-}
-
 .home{
     position: absolute;
     top: 40%;
@@ -74,7 +79,7 @@ nav {
 
 .header{
     text-align: center;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .card{
@@ -84,73 +89,51 @@ nav {
 }
 
 .picture{
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 55px;
+    border-radius: 50%;
 }
 
 .picture-text{
     margin-top: 10px;
+    margin-left: 80px;  
+}
+
+.picture2{
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.picture-text2{
+    margin-top: 10px;
     margin-left: 50px;  
 }
 
-.hexagon{
-    position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    transform: translate(-50%, -50%) rotate(120deg);
-    width: 400px;
-    height: 275px;
-    background: transparent;
-    /* border-radius: 50%; */
-    overflow: hidden;
+.picture5{
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 50%;
 }
 
-.hexagon-inner {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 50%; */
-    transform: rotate(-60deg);
-    overflow: hidden;
-    background: transparent ;
+.picture-text5{
+    margin-top: 10px;
+    margin-left: 50px;  
 }
 
-.hexagon-inner-in {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 50%; */
-    transform: rotate(-60deg);
-    overflow: hidden;
-    background: url(images/passionate-picture.jpeg);
-    background-size: contain;
+#bio-text{
+    margin-top: -130px;
 }
 
-.hexagon{
-    position: absolute;
-    /* top: 50%; */
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(120deg);
-    width: 400px;
-    height: 275px;
-    /* background: transparent; */
-    /* border-radius: 50%; */
-    /* overflow: hidden; */
+.skills{
+    margin-top: 92px;
 }
 
-.hexagon-inner {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 50%; */
-    transform: rotate(-60deg);
-    /* overflow: hidden; */
-    /* background: transparent ; */
+.skill-text{
+    margin-left: 160px;
 }
 
-.hexagon-inner-in {
-    width: 100%;
-    height: 100%;
-    /* border-radius: 50%; */
-    transform: rotate(-60deg);
-    /* overflow: hidden; */
-    background: url(images/self-motivated-picture.jpeg);
-    background-size: contain;
+.fab, .fas{
+    margin-top: 10px;
+    margin-left: 20px;
 }

@@ -11,6 +11,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="moving.css">
+    <link rel="stylesheet" type="text/css" href="dodecagon.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6358f34dbd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -67,42 +68,33 @@
             <div class="row test">
 
                 <div class="column">
-                    <div class="hexagon">
-                        <div class="hexagon-inner">
-                            <div class="hexagon-inner-in">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="column">
-                    <img src="images/passionate-picture.jpeg" class="picture" alt="passionate-picture" height="100"
-                        width="100"><h5 class="picture-text">Passionate</h5> 
-                </div> -->
-
-                <!-- <div class="column">
-                    <img src="images/self-motivated-picture.jpeg" class="picture" alt="self-motivated-picture"
-                        height="100" width="100">
-                    <h5 class="picture-text">Self- Motivated</h5>
+                    <img src="images/passionate-picture.jpeg" class="picture" alt="passionate-picture" height="150"
+                        width="150"><h5 class="picture-text">Passionate</h5> 
                 </div>
 
                 <div class="column">
-                    <img src="images/dedicated-picture.jpeg" class="picture center" alt="dedicated-picture" height="100"
-                        width="100">
+                    <img src="images/self-motivated-picture.jpeg" class="picture2" alt="self-motivated-picture"
+                        height="150" width="150">
+                    <h5 class="picture-text2">Self- Motivated</h5>
+                </div>
+
+                <div class="column">
+                    <img src="images/dedicated-picture.jpeg" class="picture" alt="dedicated-picture" height="150"
+                        width="150">
                     <h5 class="picture-text">Dedicated</h5>
                 </div>
 
                 <div class="column">
-                    <img src="images/team-player-picture.jpeg" class="picture" alt="teamwork-picture" height="100"
-                        width="100">
+                    <img src="images/team-player-picture.jpeg" class="picture" alt="teamwork-picture" height="150"
+                        width="150">
                     <h5 class="picture-text">Team Player</h5>
                 </div>
 
                 <div class="column">
-                    <img src="images/hard-working-picture.jpeg" class="picture" alt="hard-working-picture" height="100"
-                        width="100">
-                    <h5 class="picture-text">Hard- Working</h5>
-                </div> -->
+                    <img src="images/hard-working-picture.jpeg" class="picture5" alt="hard-working-picture" height="150"
+                        width="150">
+                    <h5 class="picture-text5">Hard- Working</h5>
+                </div>
 
             </div>
 
@@ -110,24 +102,29 @@
 
                 <div class="col">
                     <!-- Profile picture -->
-                    <img src="images/profile-picture.jpeg" alt="profile-picture" height="500" width="500">
+                    <div class="column">
+                        <div class="dodecagon">
+                            <div class="dodecagon-inner">
+                                <div class="dodecagon-inner-in">
+                                    <img src="images/practice.jpeg" alt="profile-picture" height="300" width="300">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- Little bio about myself -->
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                        <br>
+                    <p id="bio-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                         has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        <br>
                         took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        <br>
                         only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        <br>
                         unchanged.
                     </p>
                 </div>
 
-                <div class="col">
+                <div class="col skills">
 
                     <!-- Showing the different languages and skills I have aquired throughout the months -->
-                    <h3>
+
+                    <h3 class="skill-text">
                         Skills
                     </h3>
 
@@ -144,7 +141,14 @@
                     <div class="col">
                         <i class="fab fa-github fa-7x"></i>
                         <i class="fab fa-java fa-7x"></i>
+                        <i class="fas fa-plus-square fa-7x"></i>
                     </div>
+                    <div class="col">
+                        <i class="fas fa-plus-square fa-7x"></i>
+                        <i class="fas fa-plus-square fa-7x"></i>
+                        <i class="fas fa-plus-square fa-7x"></i>
+                    </div>
+
                 </div>
 
             </div>
@@ -153,41 +157,49 @@
 
     </div>
 
-    <div>
+    <div class="card card2">
 
-        <h1 class="header">
-            Portfolio
-        </h1>
+        <div class="card-body">
 
-        <!-- Highlighting some of the work I have done -->
-        <div class="col">
-            <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
-            <h3>Title Here</h3>
-            <p>description goes here</p>
-        </div>
-        <br>
-        <div class="col">
-            <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
-            <h3>Title Here</h3>
-            <p>description goes here</p>
-        </div>
-        <br>
-        <div class="col">
-            <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
-            <h3>Title Here</h3>
-            <p>description goes here</p>
-        </div>
-        <br>
-        <div class="col">
-            <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
-            <h3>Title Here</h3>
-            <p>description goes here</p>
-        </div>
-        <br>
-        <div class="col">
-            <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
-            <h3>Title Here</h3>
-            <p>description goes here</p>
+            <div>
+
+                <h1 class="header">
+                    Portfolio
+                </h1>
+
+                <!-- Highlighting some of the work I have done -->
+                <div class="col">
+                    <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
+                    <h3>Title Here</h3>
+                    <p>description goes here</p>
+                </div>
+                <br>
+                <div class="col">
+                    <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
+                    <h3>Title Here</h3>
+                    <p>description goes here</p>
+                </div>
+                <br>
+                <div class="col">
+                    <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
+                    <h3>Title Here</h3>
+                    <p>description goes here</p>
+                </div>
+                <br>
+                <div class="col">
+                    <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
+                    <h3>Title Here</h3>
+                    <p>description goes here</p>
+                </div>
+                <br>
+                <div class="col">
+                    <img src="images/passionate-picture.jpeg" alt="passionate-picture" height="200" width="200">
+                    <h3>Title Here</h3>
+                    <p>description goes here</p>
+                </div>
+
+            </div>
+
         </div>
 
     </div>
