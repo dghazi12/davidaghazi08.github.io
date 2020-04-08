@@ -88,6 +88,33 @@ $("#password-github").click(function() {
     window.open('https://github.com/dghazi12/davidaghazi03.github.io', '_blank');
 });
 
+//When you click arrow up button, it will take you to the welcome section of the webpage
+$('.straight-top').click(function(){
+    $('html, body').animate({
+        scrollTop: ($('body').offset().top)
+    },500);
+});
+
+//When you click on linkedin logo, it will take you to my linkedin profile
+$(".fa-linkedin").click(function() {
+    window.open('https://www.linkedin.com/in/davidaghazi/', '_blank');
+});
+
+//When you click on github logo, it will take you to my github profile
+$(".fa-github-square").click(function() {
+    window.open('https://github.com/dghazi12', '_blank');
+});
+
+//When you click on instagram logo, it will take you to my instagram profile
+$(".fa-instagram-square").click(function() {
+    window.open('https://www.instagram.com/d.ghazi_/', '_blank');
+});
+
+//When you click on twitter logo, it will take you to my twitter profile
+$(".fa-twitter-square").click(function() {
+    window.open('https://twitter.com/50whereimatEM', '_blank');
+});
+
 //Created a sitcky nav bar. When you scroll through the page, the navbar scrolls as well
 $(document).ready(function () {  
     var top = $('.navbar-dark').offset().top - parseFloat($('.navbar-dark').css('marginTop').replace(/auto/, 100));
