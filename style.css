@@ -7,13 +7,30 @@
     border-bottom: 5px solid #ffffff;
 }
 
+.home-button{
+    margin-left: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: orangered;
+}
+
+.navigation{
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: orangered;
+}
+
 .card{
     margin-top: 40px;
     left: 12%;
+    background-color: silver;
 }
 
 .card2{
+    background-color: silver;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 nav {
@@ -89,6 +106,7 @@ nav {
 .header{
     text-align: center;
     margin-top: 50px;
+    font-family: 'Cinzel', serif;
 }
 
 .card{
@@ -104,8 +122,9 @@ nav {
 }
 
 .picture-text{
-    margin-top: 10px;
-    margin-left: 80px;  
+    margin-top: 15px;
+    margin-left: 80px;
+    font-family: 'Girassol', cursive;  
 }
 
 .picture2{
@@ -115,8 +134,21 @@ nav {
 }
 
 .picture-text2{
-    margin-top: 10px;
-    margin-left: 50px;  
+    margin-top: 15px;
+    margin-left: 60px;  
+    font-family: 'Girassol', cursive;
+}
+
+.picture3{
+    margin-top: 25px;
+    margin-left: 55px;
+    border-radius: 50%;
+}
+
+.picture-text3{
+    margin-top: 15px;
+    margin-left: 90px;
+    font-family: 'Girassol', cursive;  
 }
 
 .picture5{
@@ -126,12 +158,14 @@ nav {
 }
 
 .picture-text5{
-    margin-top: 10px;
-    margin-left: 50px;  
+    margin-top: 15px;
+    margin-left: 65px;
+    font-family: 'Girassol', cursive;  
 }
 
 #bio-text{
     margin-top: -130px;
+    font-family: 'Noticia Text', serif;
 }
 
 .skills{
@@ -140,6 +174,7 @@ nav {
 
 .skill-text{
     margin-left: 160px;
+    font-family: 'Cinzel', serif;
 }
 
 .fab, .fas{
@@ -153,6 +188,11 @@ nav {
 
 .project-text{
     margin-top: 50px;
+    font-family: 'Noticia Text', serif;
+}
+
+.description{
+    font-family: 'Noticia Text', serif;
 }
 
 .testing{
@@ -162,24 +202,25 @@ nav {
 .contacttitle{
     position: absolute;
     left: 45%;
-    margin-top: 60px;
-    color: white;
+    margin-top: 70px;
+    color: black;
+    font-family: 'Cinzel', serif;
 }
 
 .phoneinfo{
     position: absolute;
     left: 33%;;
-    color: white;
-    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: 20px;
     margin-top: 175px;
 }
 
 .emailinfo{
     position: absolute;
     left: 34.5%;;
-    color: white;
-    font-family: 'Cinzel', serif;
-    margin-top: 175px;
+    color: black;
+    font-size: 20px;
+    margin-top: 190px;
 }
 
 .contact{
@@ -192,32 +233,33 @@ nav {
 .name{
     position: absolute;
     left: 33%;
-    margin-top: 200px;
+    margin-top: 220px;
     width: 500px;
 }
 
 .email{
     position: absolute;
     left: 33%;
-    margin-top: 250px;
+    margin-top: 270px;
     width: 500px;
 }
 
-.mb-2{
+.submit{
+    background-color: black;
     margin-top: 10px;
 }
 
 .textarea{
     position: absolute;
     left: 34%;
-    margin-top: 300px;
+    margin-top: 320px;
     width: 470px;
 }
 
 .straight-top{
     position: absolute;
     cursor: pointer;
-    color:white;
+    color: black;
     left: 47.5%;
     margin-top: 500px;
 }
@@ -225,7 +267,7 @@ nav {
 .social{
     position: absolute;
     cursor: pointer;
-    color: white;
+    color: black;
     margin-top: 600px;
 }
 
@@ -244,4 +286,8 @@ nav {
 
 #twitter{
     left: 53%;
+}
+
+@media screen and (max-width: 980px){
+ 
 }

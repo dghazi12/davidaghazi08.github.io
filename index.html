@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="moving.css">
     <link rel="stylesheet" type="text/css" href="dodecagon.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6358f34dbd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -47,9 +50,9 @@
     <!-- Navbar. Easily navigate around the website -->
     <nav class="navbar-dark bg-dark row row-cols-8">
         <a class="nav-link home-button" href="#home">Home</a>
-        <a class="nav-link about-button" href="#about">About</a>
-        <a class="nav-link portfolio-button" href="#portfolio">Portfolio</a>
-        <a class="nav-link contact-button" href="#contact">Contact</a>
+        <a class="nav-link navigation about-button" href="#about">About</a>
+        <a class="nav-link navigation portfolio-button" href="#portfolio">Portfolio</a>
+        <a class="nav-link navigation contact-button" href="#contact">Contact</a>
     </nav>
     <!-- <div class="card">
         <div class="card-body">
@@ -82,7 +85,7 @@
                 <div class="column">
                     <img src="images/dedicated-picture.jpeg" class="picture" alt="dedicated-picture" height="150"
                         width="150">
-                    <h5 class="picture-text">Dedicated</h5>
+                    <h5 class="picture-text3">Dedicated</h5>
                 </div>
 
                 <div class="column">
@@ -160,7 +163,7 @@
 
     <div class="card card2">
 
-        <div </div class="card-body portfolio">
+        <div class="card-body portfolio">
 
             <div>
 
@@ -177,7 +180,7 @@
                     </div>
                     <div class="col">
                         <h3 class="project-text">Osas Tracks</h3>
-                        <p> Created a webpage that will generate
+                        <p class="description"> Created a webpage that will generate
                             <br>
                             a random playlist based off of the
                             <br>
@@ -185,8 +188,8 @@
                             <br>
                             API to gather all necessary information.
                         </p>
-                        <a><button id="osas-tracks">View Work</button></a>
-                        <a><button id="osas-github">View Code</button id="osasgithub"></a>
+                        <a><button class="btn btn-secondary btn-sm" id="osas-tracks">View Work</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="osas-github">View Code</button id="osasgithub"></a>
                     </div>
                 </div>
 
@@ -197,7 +200,7 @@
                     </div>
                     <div class="col">
                         <h3 class="project-text">Coding Quiz Challenge</h3>
-                        <p>
+                        <p class="description">
                             Created a quiz that will store all high-
                             <br>
                             scores upon completion of the quiz. Users
@@ -206,8 +209,8 @@
                             <br>
                             wrong answer submited, thus affecting final score.
                         </p>
-                        <a><button id="code-quiz">View Work</button></a>
-                        <a><button id="code-github">View Code</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="code-quiz">View Work</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="code-github">View Code</button></a>
                     </div>
                 </div>
 
@@ -218,17 +221,17 @@
                     </div>
                     <div class="col">
                         <h3 class="project-text">Weather Dashboard</h3>
-                        <p>
-                            Created a website that will display the current
+                        <p class="description">
+                            Created a website that will display the
+                            <br> 
+                            current and 5 day forecast of any city 
                             <br>
-                            and 5 day forecast of any city searched for
-                            <br>
-                            by the user. Used OpenWeather API to retrieve
-                            <br>
-                            weather data for cities.
+                            searched for by the user. Used OpenWeather
+                            <br> 
+                            API to retrieve weather data for cities.
                         </p>
-                        <a><button id="weather-dashboard">View Work</button></a>
-                        <a><button id="weather-github">View Code</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="weather-dashboard">View Work</button class="btn btn-secondary btn-sm"></a>
+                        <a><button class="btn btn-secondary btn-sm" id="weather-github">View Code</button></a>
                     </div>
                 </div>
 
@@ -239,15 +242,15 @@
                     </div>
                     <div class="col">
                         <h3 class="project-text">Work Day Scheduler</h3>
-                        <p>
+                        <p class="description">
                             Created a simple calendar application that
                             <br>
                             allows the user to save events for each hour
                             <br>
                             of the day.
                         </p>
-                        <a><button id="work-schedule">View Work</button></a>
-                        <a><button id="work-github">View Code</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="work-schedule">View Work</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="work-github">View Code</button></a>
                     </div>
                 </div>
 
@@ -258,7 +261,7 @@
                     </div>
                     <div class="col">
                         <h3 class="project-text">Password Generator</h3>
-                        <p>
+                        <p class="description">
                             Created an application that generates a
                             <br>
                             random password based on user- selected
@@ -267,8 +270,8 @@
                             <br>
                             in a series of prompts.
                         </p>
-                        <a><button id="password-generator">View Work</button></a>
-                        <a><button id="password-github">View Code</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="password-generator">View Work</button></a>
+                        <a><button class="btn btn-secondary btn-sm" id="password-github">View Code</button></a>
                     </div>
                 </div>
 
@@ -287,7 +290,7 @@
         <div>
             <i class="fas fa-phone phoneinfo"> (XXX) XXX-XXXX</i>
             <br>
-            <i class="far fa-envelope emailinfo"> davidaghazi@gmail.com</i>
+            <i class="far fa-envelope emailinfo fontawesome"> davidaghazi@gmail.com</i>
         </div>
 
         <form>
@@ -306,7 +309,7 @@
                 <label for="exampleFormControlTextarea1"></label>
                 <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1"
                     rows="3"></textarea>
-                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                <button type="submit" class="btn btn-secondary submit">Submit</button>
             </div>
 
         </form>
