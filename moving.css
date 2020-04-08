@@ -19,7 +19,7 @@
 }
 
 .box-area li{
-    background-color: red;
+    background-color: maroon;
     position: absolute;
     display: block;
     list-style: none;
@@ -30,7 +30,7 @@
 }
 
 .box-area li:nth-child(1){
-    background-color: red;
+    background-color: maroon;
     left: 86%;
     width: 80px;
     height: 80px;
@@ -38,7 +38,7 @@
 }
 
 .box-area li:nth-child(2){
-    background-color: red;
+    background-color: maroon;
     left: 12%;
     width: 30px;
     height: 30px;
@@ -47,7 +47,7 @@
 }
 
 .box-area li:nth-child(3){
-    background-color: red;
+    background-color: maroon;
     left: 70%;
     width: 100px;
     height: 100px;
@@ -55,7 +55,7 @@
 }
 
 .box-area li:nth-child(4){
-    background-color: red;
+    background-color: maroon;
     left: 42%;
     width: 150px;
     height: 150px;
@@ -64,7 +64,7 @@
 }
 
 .box-area li:nth-child(5){
-    background-color: red;
+    background-color: maroon;
     left: 65%;
     width: 40px;
     height: 40px;
@@ -72,7 +72,7 @@
 }
 
 .box-area li:nth-child(5){
-    background-color: red;
+    background-color: maroon;
     left: 15%;
     width: 110px;
     height: 110px;
