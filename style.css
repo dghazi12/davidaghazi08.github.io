@@ -8,12 +8,12 @@
 }
 
 .card{
-    margin-top: 20px;
+    margin-top: 40px;
     left: 12%;
 }
 
 .card2{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 nav {
@@ -59,6 +59,15 @@ nav {
 
 .fa-github{
     color: black;
+}
+
+.cv{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 100px;
 }
 
 .home{
@@ -145,4 +154,8 @@ nav {
 
 .project-text{
     margin-top: 50px;
+}
+
+footer{
+    background-color:maroon;
 }
