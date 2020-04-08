@@ -34,14 +34,59 @@ $('.portfolio-button').click(function(){
 //When you click contact button, it will take you to the contact section of the webpage
 $('.contact-button').click(function(){
     $('html, body').animate({
-        scrollTop: ($('.contact112').offset().top)
+        scrollTop: ($('.contact-title').offset().top)
     },500);
 });
 
+//When you click on view work, it will take you to the working webpage
+$("#osas-tracks").click(function() {
+    window.open('images/coming-soon-1.png', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
 $("#osas-github").click(function() {
     window.open('https://github.com/leeroyp/OsasTracks.github.io', '_blank');
 });
 
+//When you click on view work, it will take you to the working webpage
+$("#code-quiz").click(function() {
+    window.open('https://dghazi12.github.io/davidaghazi04.github.io/', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#code-github").click(function() {
+    window.open('https://github.com/dghazi12/davidaghazi04.github.io', '_blank');
+});
+
+//When you click on view work, it will take you to the working webpage
+$("#weather-dashboard").click(function() {
+    window.open('https://dghazi12.github.io/davidaghazi06.github.io/', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#weather-github").click(function() {
+    window.open('https://github.com/dghazi12/davidaghazi06.github.io', '_blank');
+});
+
+//When you click on view work, it will take you to the working webpage
+$("#work-schedule").click(function() {
+    window.open('https://dghazi12.github.io/davidaghazi05.github.io/', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#work-github").click(function() {
+    window.open('https://github.com/dghazi12/davidaghazi05.github.io', '_blank');
+});
+
+//When you click on view work, it will take you to the working webpage
+$("#password-generator").click(function() {
+    window.open('https://dghazi12.github.io/davidaghazi03.github.io/', '_blank');
+});
+
+//When you click on view work, it will take you to github where all the code is
+$("#password-github").click(function() {
+    window.open('https://github.com/dghazi12/davidaghazi03.github.io', '_blank');
+});
 
 //Created a sitcky nav bar. When you scroll through the page, the navbar scrolls as well
 $(document).ready(function () {  

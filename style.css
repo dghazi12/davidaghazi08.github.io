@@ -159,3 +159,11 @@ nav {
 footer{
     background-color:maroon;
 }
+
+.info{
+    position: absolute;
+    left: 45%;
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 20px;
+}
