@@ -68,17 +68,17 @@
 
     .contacttitle{
         position: absolute;
-        left: 37.5%;
+        left: 43%;
     }
 
     .phoneinfo{
         position: absolute;
-        left: 35%;
+        left: 24.5%;
     }
     
     .emailinfo{
         position: absolute;
-        left: 37%;;
+        left: 26.5%;;
     }
 
     .name{
@@ -209,6 +209,21 @@
         margin-left: 115px;
     }
 
+    .phoneinfo{
+        position: absolute;
+        left: 24.5%;;
+    }
+    
+    .contacttitle{
+        position: absolute;
+        left: 41.5%;
+    }
+
+    .emailinfo{
+        position: absolute;
+        left: 27%;;
+    }
+
     .textarea{
         position: absolute;
         left: 27%;
@@ -312,17 +327,17 @@
 
     .contacttitle{
         position: absolute;
-        left: 32.5%;
+        left: 38.5%;
     }
 
     .phoneinfo{
         position: absolute;
-        left: 29%;;
+        left: 20%;;
     }
     
     .emailinfo{
         position: absolute;
-        left: 32%;;
+        left: 23%;;
     }
 
     .name{
