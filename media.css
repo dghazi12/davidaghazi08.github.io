@@ -1,14 +1,15 @@
 @media screen and (max-width: 980px){
+    
     .animation-area{
-    background: linear-gradient(to left, silver, black);
-    width: 100%;
-    height: 100vh;
+        background: linear-gradient(to left, silver, black);
+        width: 100%;
+        height: 100vh;
     }
 
     .home{
-            position: absolute;
-            top: 40%;
-            left: 25%;
+        position: absolute;
+        top: 40%;
+        left: 25%;
     }
 
     .cv{
@@ -48,8 +49,16 @@
         margin-left: 80px;
     }
 
+    .dodecagon{
+        margin-top: 200px;
+        margin-left: 125px;
+        width: 250px;
+        transform: translate(-50%, -50%) rotate(120deg);
+        overflow: hidden;
+    }
+
     .skills{
-        margin-top: -634px;
+        margin-top: -570px;
         margin-left: 300px;
     }
 
@@ -104,7 +113,6 @@
         left: 35.5%;
     }
     
-    
     #github{
         left: 41.5%;
     }
@@ -115,6 +123,245 @@
     
     #twitter{
         left: 53.5%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .animation-area{
+        background: linear-gradient(to left, silver, black);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .home{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+
+    .cv{
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        margin-top: 100px;
+    }
+
+    .picture1{
+        margin-top: 25px;
+        margin-left: 12px;
+    }
+    
+    .picture-text1{
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .picture4{
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+    
+    .picture-text4{
+        margin-top: 15px;
+        margin-left: 125px;
+    }
+
+    .picture5{
+        margin-top: 25px;
+        margin-left: 65px;
+    }
+    
+    .picture-text5{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+    .dodecagon{
+        margin-top: 200px;
+        margin-left: 125px;
+        width: 250px;
+        transform: translate(-50%, -50%) rotate(120deg);
+        overflow: hidden;
+    }
+
+    #bio-text{
+        margin-left: 300px;
+        margin-top: -450px;
+        width: 250px;
+    }
+
+    .skills{
+        margin-top: 450px;
+        margin-left: -500px;
+    }
+
+    .viewwork{
+        margin-left: 175px;
+    }
+
+    .description,
+    .project-text{
+        margin-left: 120px;
+    }
+
+    .project-picture{
+        margin-left: 115px;
+    }
+
+    .textarea{
+        position: absolute;
+        left: 27%;
+        width: 355px;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .view{
+        position: absolute;
+        top: 45%;
+        left: 15%;
+    }
+
+    .cv{
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        margin-top: 100px;
+    }
+
+    .picture1{
+        margin-top: 25px;
+        margin-left: 115px;
+    }
+    
+    .picture-text1{
+        margin-top: 15px;
+        margin-left: 145px;
+    }
+
+    .picture2{
+        margin-left: 100px;
+    }
+
+    .picture-text2{
+        margin-left: 110px;
+    }
+
+    .picture3{
+        margin-left: 115px;
+    }
+
+    .picture-text3{
+        margin-left: 150px;
+    }
+
+    .picture4{
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+    
+    .picture-text4{
+        margin-top: 15px;
+        margin-left: 125 px;
+    }
+
+    .picture5{
+        margin-top: 25px;
+        margin-left: 240px;
+    }
+    
+    .picture-text5{
+        margin-top: 15px;
+        margin-left: 255px;
+    }
+
+    .dodecagon{
+        margin-top: 180px;
+        margin-left: 300px;
+        width: 300px;
+        transform: translate(-50%, -50%) rotate(120deg);
+        overflow: hidden;
+    }
+
+    #bio-text{
+        margin-left: 110px;
+        margin-top: -120px;
+        width: 400px;
+    }
+
+    .skills{
+        margin-top: 580px;
+        margin-left: -550px;
+    }
+
+    .viewwork{
+        margin-left: 130px;
+    }
+
+    .description,
+    .project-text{
+        margin-left: 80px;
+    }
+
+    .project-picture{
+        margin-left: 70px;
+    }
+
+    .contacttitle{
+        position: absolute;
+        left: 32.5%;
+    }
+
+    .phoneinfo{
+        position: absolute;
+        left: 29%;;
+    }
+    
+    .emailinfo{
+        position: absolute;
+        left: 32%;;
+    }
+
+    .name{
+        position: absolute;
+        left: 20%;
+        width: 400px;
+    }
+    
+    .email{
+        position: absolute;
+        left: 20%;
+        width: 400px;
+    }
+
+    .textarea{
+        position: absolute;
+        left: 22.5%;
+        width: 370px;
+    }
+
+    .straight-top{
+        position: absolute;
+        left: 45.5%;
+    }
+
+    #linkedin{
+        left: 34%;
+    }
+    
+    #github{
+        left: 41%;
+    }
+    
+    #insta{
+        left: 48%;
+    }
+    
+    #twitter{
+        left: 55%;
     }
 
 }
