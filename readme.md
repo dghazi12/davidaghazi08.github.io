@@ -4,24 +4,24 @@
 
 ## Requirements
 
-#### Updated portfolio featuring project 1 and two exemplary homework assignments.
-#### Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
-#### Updated resume
-#### Updated LinkedIn profile
+Updated portfolio featuring project 1 and two exemplary homework assignments.
+Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
+Updated resume
+Updated LinkedIn profile
 
 ## Welcome Page of Portfolio:
 
-![](Images/WelcomePorfolio.png)
+![](images/WelcomePorfolio.png)
 
 ## Built With
 
-#### HTML
-#### CSS
-#### Javascript
-#### Bootstrap
-#### jQuery
-#### Font Awesome
-#### Google Fonts
+HTML
+CSS
+Javascript
+Bootstrap
+jQuery
+Font Awesome
+Google Fonts
 
 ## Link to Portfolio
 
