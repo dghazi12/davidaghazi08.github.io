@@ -9,10 +9,10 @@
 - Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 - A link to a PDF of your resume
 - A list of projects. For each project, make sure you have the following:
-- - Project title
-- - Link to the deployed version
-- - Link to the GitHub repository
-- - Screenshot of the deployed application
+  - Project title
+  - Link to the deployed version
+  - Link to the GitHub repository
+  - Screenshot of the deployed application
 
 ## Requirements
 
