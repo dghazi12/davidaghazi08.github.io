@@ -40,7 +40,7 @@ nav {
 .diamond {
     transform: rotate(45deg);
     transform-origin: 0 100%;
-  }
+}
 
 .fab{
     margin-left: 10px;

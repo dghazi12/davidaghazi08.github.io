@@ -1,9 +1,8 @@
-# Unit 08 Project 1 Homework: Professional Materials
+# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 ## Updated Portfolio
 
 #### Your updated site should have the following content:
-
 
 - Your name
 - Links to your GitHub profile & LinkedIn page as well as your email address and phone number
