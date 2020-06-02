@@ -1,4 +1,4 @@
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
+# Unit 08 Project 1 Homework: Professional Materials
 
 ## Updated Portfolio
 
